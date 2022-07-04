@@ -48,8 +48,8 @@ export const MyRow = (props) => {
   </div>);
 };
 
-// export const Row = React.memo(MyRow, areEqual);
-export const Row = MyRow
+export const Row = React.memo(MyRow, areEqual);
+// export const Row = MyRow
 
 
 
